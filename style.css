@@ -20,10 +20,29 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+@font-face {
+  font-family: "NorseBold"; /* Choose a name for your font */
+  src: url("fonts/Norsebold.otf") format("opentype"); /* Specify the path and format */
+  font-weight: normal; /* Optional: define weight */
+  font-style: normal; /* Optional: define style */
+}
+
 body {
     background-color: rgb(34, 34, 34);
     /* margin-left: max();
     margin-right: max(); something like this will be needed*/
+}
+
+.content {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+}
+
+.left-side {
+    position: relative;
+    display: flex;
 }
 
 .background-image {
@@ -31,15 +50,46 @@ body {
     width: auto;
 }
 
-.content {
-    height: 100vp;
-    width: 100vp;
+.odin-logo {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    top: 20%;
+    bottom: 0;
+
+    background-color: rgba(0, 0, 0, 0.308);
 
     display: flex;
+    justify-content: center;
+}
+
+.odin-logo-text {
+    font-family: 'NorseBold';
+    color: white;
+    font-size: 80px;
+
+    align-self: center;
+}
+
+.photo-credits {
+    color: aliceblue;
+    font-size: 12px;
+
+    position: absolute;
+    top: 100;
+    bottom: 2%;
+    width: 100%;
+    text-align: center;
+}
+.photo-credits>a {
+    color: aliceblue;
 }
 
 .right-side {
-    height: 100vp;
+    height: 100vh;
 
     background-color: rgb(236, 236, 236);
 }
