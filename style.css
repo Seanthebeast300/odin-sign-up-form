@@ -36,10 +36,10 @@ body {
 .content {
     height: 100vh;
     width: 100vw;
-    min-height: 100vh;
+    /* min-height: 100vh;
     min-width: 100vw;
     max-height: 100vh;
-    max-width: 100vw;
+    max-width: 100vw; */
 
     display: flex;
 }
@@ -93,18 +93,44 @@ body {
     color: aliceblue;
 }
 
+
+
+
 .right-side {
     height: 100vh;
 
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(245, 245, 245);
 
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+.header {
+    height: 30%;
+    padding-left: 24px;
+    padding-bottom: 32px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+}
+
 .form {
+    height: 40%;
+
     background-color: white;
 
     display: flex;
+    flex-direction: column;
+}
+
+.labels-and-inputs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    height: 30%;
+    
 }
