@@ -29,19 +29,17 @@
                 <div class="header-text">You <em>know</em> you want to.</div>
             </div>
 
-            
-            <div class="form">
-                <form action="https://httpbin.org/post" method="post">
+            <form action="https://httpbin.org/post" method="post">
+                <fieldset class="form">
                     <div class="form-title">Let's do this!</div>
-
                     <div class="labels-and-inputs">
                         <div class="labels-and-inputs-row">
                             <div class="individual-labels-and-inputs">
                                 <label for="first-name" class="first-name-label">First Name: </label>
                                 <input id="first-name" type="text" name="first-name" placeholder="John" class="first-name-input">
                             </div>
-
                             <div class="individual-labels-and-inputs">
+
                                 <label for="last-name" class="last-name-label">Last Name: </label>
                                 <input id="last-name" type="text" name="last-name" placeholder="Jones" class="last-name-input">
                             </div>
@@ -52,7 +50,6 @@
                                 <label for="email-address" class="email-address-label">Email address: </label>
                                 <input id="email-address" type="text" name="email-address" placeholder="example@gmail.com" class="email-address-input">
                             </div>
-
                             <div class="individual-labels-and-inputs">
                                 <label for="phone-number" class="phone-number-label">Phone Number: </label>
                                 <input id="phone-number" type="text" name="phone-number" placeholder="000-000-0000" class="phone-number-input">
@@ -64,20 +61,23 @@
                                 <label for="password" class="password-label">Password: </label>
                                 <input id="password" type="text" name="password" class="password-input">
                             </div>
-
                             <div class="individual-labels-and-inputs">
+
                                 <label for="confirm-password" class="confirm-password-label">Confirm Password: </label>
                                 <input id="confirm-password" type="text" name="confirm-password" class="confirm-password-input">
                             </div>
                         </div>
                     </div>
-                </form>
-            </div>
+                
+                </fieldset>
 
-            <div class="footer">
-                <button class="create-account-button">Create Account</button>
-                <div class="log-in-text">Already have an account? <a href="">Log in</a></div>
-            </div>
+                <div class="footer">
+                    <button class="create-account-button">Create Account</button>
+                    <div class="log-in-text">Already have an account? <a href="">Log in</a></div>
+                </div>
+            </form>
+
+            
             
         </div>
     </div>
