@@ -109,11 +109,19 @@ body {
 .header {
     height: 30%;
     padding-left: 24px;
+    padding-right: 24px;
     padding-bottom: 32px;
 
     display: flex;
     flex-direction: column;
     justify-content:end;
+    gap: 16px;
+}
+
+.header-text {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 600;
 }
 
 .form {
@@ -123,11 +131,24 @@ body {
 
     display: flex;
     flex-direction: column;
+    gap: 16px;
+}
+
+.form-title {
+    margin-top: 24px;
+    margin-left: 24px;
 }
 
 .labels-and-inputs {
+    margin-left: 24px;
+
     display: flex;
     flex-wrap: wrap;
+}
+
+.individual-labels-and-inputs {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
