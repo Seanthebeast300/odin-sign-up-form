@@ -167,6 +167,13 @@ label {
     font-size: small;
 }
 
+input:invalid {
+    border-color: red;
+}
+input:valid {
+    border: revert;
+}
+
 .footer {
     height: 30vh;    
 }
