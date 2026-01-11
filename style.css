@@ -103,7 +103,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .header {
@@ -167,8 +167,7 @@ label {
 }
 
 .footer {
-    height: 30%;
-    
+    height: 30%;    
 }
 
 .create-account-button,
