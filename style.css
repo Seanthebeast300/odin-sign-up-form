@@ -170,3 +170,25 @@ label {
     height: 30%;
     
 }
+
+.create-account-button,
+.log-in-text {
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+.create-account-button {
+    width: 160px;
+    height: 36px;
+
+    border-radius: 6px;
+    background-color: #596D48;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+}
+
+.log-in-text>a {
+    color: #596D48;
+    text-decoration: none;
+}
