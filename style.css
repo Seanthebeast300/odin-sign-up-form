@@ -131,10 +131,11 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    gap: 16px;
 }
 
 .form-title {
+    margin-top: 24px;
     margin-left: 48px; 
 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
